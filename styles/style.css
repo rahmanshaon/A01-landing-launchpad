@@ -8,70 +8,110 @@
 }
 
 body {
-    font-family: "Raleway", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .container {
-    width: 70%;
-    max-width: 1200px;
-    margin: 0 auto;
+  width: 70%;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
+/* hero section start */
+
 .top-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 50px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0;
 }
 
 .logo {
-    font-family: "Inter", sans-serif;
-    font-size: 2.1rem;
-    font-weight: 900;
-    color: #4e47ff;
-    text-transform: uppercase;
+  font-family: "Inter", sans-serif;
+  font-size: 2.1rem;
+  font-weight: 900;
+  color: #4e47ff;
+  text-transform: uppercase;
 }
 
 .btn-primary {
-    background-color: #4e47ff;
-    color: #fff;
-    padding: 10px 30px;
-    border-radius: 5px;
-    font-size: 1.2rem;
-    font-weight: 700;
-    cursor: pointer;
-    display: inline-block;
-    margin-top: 1 rem;
+  background-color: #4e47ff;
+  color: #fff;
+  padding: 10px 30px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 1 rem;
 }
 
 .btn-primary:hover {
-    background-color: #3c38d9;
-    transition: background-color 0.3s ease;
+  background-color: #3c38d9;
+  transition: background-color 0.3s ease;
 }
 
 .hero {
-    height: 80vh;
-    width: 100%;
-    background: url("../images/hero-bg.png");
-    background-size: cover;
-    background-position: center;
-    text-align: center;
+  height: 90vh;
+  width: 100%;
+  background: url("../images/hero-bg.png");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
 }
 
 .hero-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .hero-content h1 {
-    color: #252432;
-    font-size: 3.5rem;
-    font-weight: 700;
-    margin: 5rem 0 1.7rem;
+  color: #252432;
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-top: 155px;
+  margin-bottom: 50px;
 }
+
+/* hero section end */
+
+/* action section start */
+
+.action-section{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 150px 0;
+  gap: 50px;
+}
+.action-section .action-content {
+  max-width: 500px;
+}
+
+.action-section .action-content h2 {
+  font-size: 2.7rem;
+  font-weight: 700;
+  color: #252432;
+  margin-bottom: 20px;
+}
+
+.action-section .action-content p {
+  font-size: 1.5rem;
+  color: rgba(37, 36, 50, 0.50);
+  margin-bottom: 30px;
+}
+
+.action-section .action-image img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 50px;
+}
+
+/* action section end */
+
