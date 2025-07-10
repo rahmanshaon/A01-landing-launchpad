@@ -59,8 +59,9 @@ a {
 .hero {
   height: 90vh;
   width: 100%;
-  background: url("../images/hero-bg.png");
+  background: url("../images/herobg.png");
   background-size: cover;
+  background-repeat: no-repeat;
   background-position: center;
   text-align: center;
 }
