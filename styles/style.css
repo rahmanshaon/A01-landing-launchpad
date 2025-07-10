@@ -9,6 +9,7 @@
 
 body {
   font-family: "Raleway", sans-serif;
+  background-color: #f5f8ff;
 }
 
 a {
@@ -47,12 +48,13 @@ a {
   font-weight: 700;
   cursor: pointer;
   display: inline-block;
-  margin-top: 1 rem;
+  margin-top: 1rem;
+  transition: background-color 0.3s ease, font-size 0.3s ease;
 }
 
 .btn-primary:hover {
   background-color: #3c38d9;
-  transition: background-color 0.3s ease;
+  font-size: 1.3rem;
 }
 
 .hero {
@@ -83,7 +85,7 @@ a {
 
 /* action section start */
 
-.action-section{
+.action-section {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -103,7 +105,7 @@ a {
 
 .action-section .action-content p {
   font-size: 1.5rem;
-  color: rgba(37, 36, 50, 0.50);
+  color: rgba(37, 36, 50, 0.5);
   margin-bottom: 30px;
 }
 
@@ -115,3 +117,45 @@ a {
 
 /* action section end */
 
+/* productive user section start */
+
+.productive-section {
+  background-color: rgba(78, 71, 255, 0.1);
+  border-radius: 25px;
+  padding: 50px 80px;
+  text-align: center;
+  margin-bottom: 150px;
+}
+
+.productive-section h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #252432;
+  margin-bottom: 40px;
+}
+
+.productive-stats {
+  font-family: "Inter", sans-serif;
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.productive-stats .stat-item {
+  text-align: center;
+}
+
+.stat-item h3 {
+  font-size: 5rem;
+  font-weight: 700;
+  color: #4e47ff;
+  margin-bottom: 10px;
+}
+
+.stat-item p {
+  font-size: 1.3rem;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+/* productive user section end */
