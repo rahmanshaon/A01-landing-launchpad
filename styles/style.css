@@ -117,7 +117,7 @@ a {
 
 /* action section end */
 
-/* productive user section start */
+/* productive user statistics section start */
 
 .productive-section {
   background-color: rgba(78, 71, 255, 0.1);
@@ -158,4 +158,78 @@ a {
   text-align: center;
 }
 
-/* productive user section end */
+/* productive user statistics section end */
+
+/* contact section start */
+
+.contact-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 0;
+  gap: 70px;
+}
+
+.contact-section .contact-content {
+  max-width: 500px;
+}
+
+.contact-section .contact-content h2 {
+  font-size: 5.5rem;
+  font-weight: 700;
+  color: #252432;
+  margin-bottom: 20px;
+}
+
+.contact-section .form-section {
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-family: "Inter", sans-serif;
+}
+
+.form-section .form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form-group label {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #252432;
+  line-height: 1.5;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 20px 30px;
+  border: 1px solid #d6dded;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  background: #ffffff;
+  color: rgba(0, 0, 0, 0.5);
+  font-family: inherit;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #4e47ff;
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1);
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.cta-btn {
+  border: none;
+  padding: 20px 100px;
+}
+
+/* contact section end */
